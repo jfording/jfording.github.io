@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Fording</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-overlay">
+            <div class="header-name">Joshua Fording</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="cv.html">CV</a></li>
+        </ul>
+    </nav>
+
+    <section class="main">
+        <div class="profile-section">
+            <img src="images/profile.jpg" alt="Joshua Fording photo" class="profile-photo">
+            <div class="profile-info">
+                <h2>Joshua Fording</h2>
+                <p>PhD Student, Department of Government, Harvard University</p>
+                <p>Email: <a href="mailto:jfording@g.harvard.edu">jfording@g.harvard.edu</a></p>
+                <div class="links">
+                    <a href="https://scholar.google.com/citations?user=rBrqWRsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+                    <a href="https://www.linkedin.com/in/josh-fording/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>I am a PhD student in the Department of Government at Harvard University. I study comparative political economy with a focus on informal and illicit economies, victimization, and contentious politics, primarily within the context of Latin America.</p> 
+            <p>Prior to graduate school, I conducted research at the Urban Institute on crime prevention and victim services in Mexico and the US. I received my BA in political science from Boston College, where I was a Gabelli Presidential Scholar.</p>
+        </div>
+    </section>
+</body>
+</html>
