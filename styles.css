@@ -102,7 +102,7 @@ nav a.active, nav a:focus, nav a:hover {
 
 /* Card Main Container */
 .main {
-    margin: -90px auto 0 auto;
+    margin: 1.8em auto 0 auto;
     position: relative;
     max-width: 740px;
     padding: 2.8em 2.3em 2.2em 2.3em;
