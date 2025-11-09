@@ -235,67 +235,64 @@ a {
   .main { padding: .6em .2em;}
 }
 
-/* Layout for research page text and images */
 .research-flex {
   display: flex;
-  gap: 2.1em;
+  gap: 2em;
   align-items: flex-start;
 }
 
 .research-text {
-  flex: 2 1 58%;
+  flex: 2 1 0;
   min-width: 0;
 }
 
 .research-images {
-  flex: 1 1 34%;
+  flex: 1 1 220px;
   min-width: 160px;
+  max-width: 270px;
   display: flex;
   flex-direction: column;
-  gap: 1.8em;
+  gap: 1.2em;
+}
+
+.research-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 11px;
+  display: block;
+  background: #f4f7fb;
+  box-shadow: 0 3px 10px rgba(30,40,70,0.08);
 }
 
 .research-img-vertical {
+  aspect-ratio: 3/4;
   width: 100%;
-  aspect-ratio: 3/4; /* vertical rectangle */
-  object-fit: cover;
-  border-radius: 11px;
-  margin-bottom: 0.75em;
-  box-shadow: 0 3px 12px 0 rgba(40,50,80,.11);
-  background: #f1f4fa;
 }
-
 .research-img-horizontal {
+  aspect-ratio: 5/3;
   width: 100%;
-  aspect-ratio: 5/3; /* horizontal rectangle */
-  object-fit: cover;
-  border-radius: 11px;
-  box-shadow: 0 3px 12px 0 rgba(40,50,80,.07);
-  background: #f1f4fa;
 }
 
-/* Responsive fallback: Stack images under text on small screens */
 @media (max-width: 900px) {
   .research-flex {
     flex-direction: column;
-    gap: 2.2em;
+    gap: 2em;
   }
   .research-images {
     flex-direction: row;
-    gap: 1.2em;
-    justify-content: flex-start;
+    max-width: 100%;
+    gap: 1em;
   }
-  .research-img-vertical, .research-img-horizontal {
-    width: 48%;
-    margin-bottom: 0;
+  .research-images img {
+    max-width: 49%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .research-images {
     flex-direction: column;
-    gap: 1.2em;
+    gap: .8em;
   }
-  .research-img-vertical, .research-img-horizontal {
-    width: 100%;
+  .research-images img {
+    max-width: 100%;
   }
 }
