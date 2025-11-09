@@ -197,26 +197,6 @@ a {
   text-decoration-skip-ink: auto;
 }
 
-/* Call-to-action & button style */
-.button {
-  background: var(--primary);
-  color: var(--primary-contrast) !important;
-  font-family: inherit;
-  font-weight: 600;
-  border: none;
-  border-radius: 40px;
-  padding: 0.5em 1.4em;
-  font-size: 1em;
-  margin-top: .2em;
-  cursor: pointer;
-  box-shadow: none;
-  transition: background 0.17s;
-}
-.button:hover,
-.button:focus {
-  background: #1d295d;
-  color: var(--primary-contrast);
-}
 
 /* Responsive tweaks */
 @media (max-width: 680px) {
