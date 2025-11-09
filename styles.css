@@ -35,7 +35,7 @@ header {
     min-height: 260px;
     height: 34vw;
     max-height: 360px;
-    background: url('images/banner.jpg') center/cover no-repeat;
+    background: url('banner.jpg') center/cover no-repeat;
     position: relative;
     box-shadow: 0 8px 28px rgba(97, 101, 132, 0.08);
     margin-bottom: 0;
