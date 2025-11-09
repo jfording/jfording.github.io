@@ -119,8 +119,8 @@ nav a:hover {
   margin-bottom: 1.9em;
 }
 .profile-photo {
-  width: 84px;
-  height: 84px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
   background: #f4f7fb;
